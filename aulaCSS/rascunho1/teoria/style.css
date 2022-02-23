@@ -1,0 +1,121 @@
+body {
+    padding: 20px;
+}
+
+p {
+    color: rebeccapurple;
+    
+    
+}
+/*Classes e Ids */
+#meutitulo { /*id*/
+    font-size: 2em;
+    color: lightpink;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid lightcoral;
+    font-family: 'Felix Titling';
+}
+
+.parag {/*calss*/
+    background-color: rgb(0, 22, 122);
+    color: rgb(78, 228, 72);
+    font-family: Stencil;
+    font-size: 1.5em;
+}
+
+/*Elementos da pagina, listas*/
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 2px;
+}
+
+p,h1 {
+    border-left: 2px solid lightcoral;
+}
+
+.cor {
+    padding: 5px;
+    color: darkkhaki;
+    background-color: darkolivegreen;
+}
+/*Box model*/
+.boxdiv {
+    width: 300px;
+    height: 150px;
+    padding:20px;
+    border: 2px solid black;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+/*Links*/
+.decoration {
+    text-decoration: none;
+}
+.visitado:visited {
+    color: rgb(252, 248, 6);
+    
+}
+.estilo-hover:hover {
+    background-color: aqua;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border: 3px dashed lightcoral;
+    border-radius: 50px;
+    padding: 10px;
+    transition: 5s;
+}
+/*Button*/
+.btn {
+    background-color: greenyellow;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px 5px;
+    transition: 1s;
+}
+.btn:hover {
+    background-color: blue;
+    color: greenyellow;
+}
+/*Listas*/
+.sem-estilo {
+    list-style: none;
+}
+
+/*Display*/
+.inline {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    margin: 5px;
+    display: inline-block;
+}
+.bloco {
+    display: block;
+}
+.inline-hidden {
+    display: none;
+}
+/*Position Fixed*/
+.elemento-fixo {
+    position: fixed;
+    left: 0px;
+    top: -3px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: darkgrey;
+    border-bottom: 2px solid grey;
+    color: white;
+}
