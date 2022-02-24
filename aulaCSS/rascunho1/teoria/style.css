@@ -119,3 +119,28 @@ p,h1 {
     border-bottom: 2px solid grey;
     color: white;
 }
+/*First child*/
+.primeiro-elemento p:first-child {
+    background-color: red;
+    color: green;
+}
+/*Pseudo elemento*/
+.primeira-letra::first-letter {
+    font-size: 3em;
+    background-color: blueviolet;
+    color: blue;
+}
+/*Especificidade*/
+h2 {
+    color: red;
+}
+.titulo {
+    color: lightgreen;
+}
+#meu-titulo-preferido {
+    color: blue;
+}
+/*Important*/
+h2 {
+    color:aqua !important
+}
