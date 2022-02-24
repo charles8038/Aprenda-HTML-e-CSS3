@@ -10,7 +10,7 @@
 header {
     background-image: linear-gradient(to bottom, grey,salmon);
     color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 40px;
     text-align: center;
     border-bottom: 2px solid rgba(255, 61, 39, 0.767);
 }
